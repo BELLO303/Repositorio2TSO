@@ -1,0 +1,36 @@
+<html>
+<head> 
+<title> Tercero </title>
+</head>
+<body>
+
+<h3>Formulario</h3>
+
+<form>
+
+<label for="nombre">Ingrese su nombre</label>
+<input type="text" placeholder="Escribir tu nombre" size="40" maxlength="5" name="nombre"
+id="nombre">
+                                         <!-- ((size=tamaño de la barra)) ((maxlength=tamaño maximo de  caracteres a ingresar)) ((name=asignar nombre a formulario))-->                                                                                
+  
+ <input type="password">    <!--  El texto se ve censurado-->   
+ <input type="email" name=" "id=" " >     <!--email comprueba que un correo sea correcto-->
+<br>
+ <input type="checkbox">Hombre  <!--Permite añadir casillas para marcar-->                                                                                             <input type="checkbox">Mujer
+<br>
+ <input type="radio" name="gender" value="hombre"> Hombre<br>  <!--"Radio para seleccionar una casilla u otra-->
+ <input type="radio" name="gender" value="mujer"> Mujer<br>
+ <input type="button" value="Enviar">   <!--Poner un botón con texto-->
+ <input type="submit" value="send">
+
+<select name="" id="">
+  <option value="México">México</options>
+  <option value="Argentina">Argentina</options>  <!--Poner botón con opciones a escojer--> 
+</select>
+  
+<input type="color"> <!--Permite añadir una barra para seleccionar color-->
+<input type="range"> <!--Permite poner una barra de rango-->                                                               
+</form>
+
+</body>
+</html>
